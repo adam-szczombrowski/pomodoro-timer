@@ -13,3 +13,48 @@
  */
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+body {
+  text-align: center;
+  background-color: #596c71;
+  color: white;
+}
+
+h1{
+  font-weight: bold;
+}
+
+#break_length, #pomodoro_length {
+  display: inline;
+}
+
+.timer {
+  border: 10px solid #db6262;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+#state{
+  margin-top: 90px;
+  font-size: 150%;
+}
+
+#timer_display {
+  font-size: 150%;
+}
+
+.pomodoro, .break {
+  font-size: 140%;
+}
+
+button {
+  background-color: #596c71;
+  border: none;
+  margin: 0px 10px 0px 10px;
+  font-size: 120%;
+}
+button:focus {
+  outline:0;
+}
